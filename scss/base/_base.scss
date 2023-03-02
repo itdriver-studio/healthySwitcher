@@ -4,10 +4,11 @@ html {
 }
 
 body {
+    background-color: #191919;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 16px;
     line-height: 1.6875;
     text-rendering: optimizeSpeed;
@@ -33,6 +34,26 @@ section {
 
     &--no-padding {
         padding: 0;
+    }
+
+    /*Tablet*/
+    @media (max-width: 1139px) {
+        width: 900px;
+    }
+
+    /*Big Mobile*/
+    @media (max-width: 899px) {
+        width: 768px;
+    }
+
+    /*Mobile*/
+    @media (max-width: 767px) {
+        width: 600px;
+    }
+
+    /*XS Mobile*/
+    @media (max-width: 599px) {
+        width: 100%;
     }
 }
 
