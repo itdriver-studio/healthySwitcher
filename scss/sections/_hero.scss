@@ -1,0 +1,139 @@
+.hero {
+    padding-top: 80px;
+    padding-bottom: 150px;
+
+    /*Tablet*/
+    @media (max-width: 1199px) {
+        padding-top: 60px;
+        padding-bottom: 120px;
+    }
+
+    /*Big Mobile*/
+    @media (max-width: 899px) {
+        padding-top: 40px;
+        padding-bottom: 90px;
+    }
+
+    /*Mobile*/
+    @media (max-width: 767px) {
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+
+    /*XS Mobile*/
+    @media (max-width: 599px) {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 72px;
+
+        /*Tablet*/
+        @media (max-width: 1199px) {
+            font-size: 62px;
+        }
+
+        /*Big Mobile*/
+        @media (max-width: 899px) {
+            font-size: 52px;
+        }
+
+        /*Mobile*/
+        @media (max-width: 767px) {
+            font-size: 42px;
+        }
+
+        /*XS Mobile*/
+        @media (max-width: 599px) {
+            font-size: 32px;
+        }
+
+        &-wrapper {
+            margin-bottom: 18px;
+        }
+    }
+
+    &__text {
+        margin: 0 auto 40px;
+        text-align: center;
+        max-width: 595px;
+        color: rgba(255, 255, 255, 0.7);
+
+        /*Mobile*/
+        @media (max-width: 767px) {
+            max-width: 395px;
+            margin-bottom: 20px;
+        }
+
+        /*XS Mobile*/
+        @media (max-width: 599px) {
+            max-width: 270px;
+        }
+    }
+
+    &__btn {
+        display: block;
+        margin: 0 auto 70px;
+
+        /*Tablet*/
+        @media (max-width: 1199px) {
+            margin-bottom: 60px;
+        }
+
+        /*Big Mobile*/
+        @media (max-width: 899px) {
+            margin-bottom: 50px;
+        }
+
+        /*Mobile*/
+        @media (max-width: 767px) {
+            margin-bottom: 40px;
+            padding: 0 26px;
+            height: 62px;
+            font-size: 16px;
+        }
+
+        /*XS Mobile*/
+        @media (max-width: 599px) {
+            margin-bottom: 20px;
+            padding: 0 16px;
+            height: 52px;
+        }
+    }
+
+    &__contacts {
+        display: flex;
+        justify-content: space-between;
+
+        /*XS Mobile*/
+        @media (max-width: 599px) {
+            flex-direction: column;
+            row-gap: 30px;
+        }
+    }
+
+    &-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        line-height: 1.4;
+        color: #fff;
+
+        &__icon {
+            margin-bottom: 20px;
+
+            /*XS Mobile*/
+            @media (max-width: 599px) {
+                margin-bottom: 10px;
+            }
+        }
+
+        & span {
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+}
