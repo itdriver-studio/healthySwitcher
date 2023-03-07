@@ -14,3 +14,15 @@ close.addEventListener('click', () => {
     document.body.style.overflow = 'auto';
 
 })
+
+$('.about-slider').slick({
+    variableWidth: true,
+    slidesToShow: 2,
+    responsive: [{
+        breakpoint: 899,
+        settings: {
+            centerMode: true,
+            slidesToShow: 1
+        }
+    }],
+});
