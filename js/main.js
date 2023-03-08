@@ -16,13 +16,17 @@ close.addEventListener('click', () => {
 })
 
 $('.about-slider').slick({
+    autoplay: true,
     variableWidth: true,
     slidesToShow: 2,
     responsive: [{
         breakpoint: 899,
         settings: {
-            centerMode: true,
             slidesToShow: 1
-        }
+        },
+        breakpoint: 768,
+        settings: {
+            arrows: false,
+        },
     }],
 });
