@@ -2,12 +2,50 @@
     padding-top: 90px;
     padding-bottom: 30px;
 
+    /*Tablet*/
+    @media (max-width: 1199px) {
+        padding-top: 80px;
+    }
+
+    /*Big Mobile*/
+    @media (max-width: 899px) {
+        padding-top: 60px;
+    }
+
+    /*Mobile*/
+    @media (max-width: 767px) {
+        padding-top: 50px;
+    }
+
+    /*XS Mobile*/
+    @media (max-width: 599px) {
+        padding-top: 40px;
+    }
+
     &-backtext {
         top: 45px;
 
+        /*Tablet*/
+        @media (max-width: 1199px) {
+            top: 45px;
+            font-size: 90px;
+        }
+
+        /*Big Mobile*/
+        @media (max-width: 899px) {
+            top: 40px;
+            font-size: 70px;
+        }
+
+        /*Mobile*/
+        @media (max-width: 767px) {
+            top: 25px;
+        }
+
         /*XS Mobile*/
         @media (max-width: 599px) {
-            top: 55px;
+            top: 25px;
+            font-size: 60px;
         }
     }
 
