@@ -19,6 +19,8 @@ $('.about-slider').slick({
     autoplay: true,
     variableWidth: true,
     slidesToShow: 2,
+    pauseOnFocus: false,
+    pauseOnHover: false,
     responsive: [{
         breakpoint: 899,
         settings: {
