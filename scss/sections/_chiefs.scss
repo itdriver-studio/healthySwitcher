@@ -1,0 +1,118 @@
+.chiefs {
+    padding-top: 90px;
+
+    /*Tablet*/
+    @media (max-width: 1199px) {
+        padding-top: 80px;
+    }
+
+    /*Big Mobile*/
+    @media (max-width: 899px) {
+        padding-top: 60px;
+    }
+
+    /*Mobile*/
+    @media (max-width: 767px) {
+        padding-top: 50px;
+    }
+
+    /*XS Mobile*/
+    @media (max-width: 599px) {
+        padding-top: 40px;
+    }
+
+    &__backtext {
+        top: 50px;
+
+        /*Tablet*/
+        @media (max-width: 1199px) {
+            top: 40px;
+        }
+
+        /*Big Mobile*/
+        @media (max-width: 899px) {
+            top: 20px;
+        }
+
+        /*Mobile*/
+        @media (max-width: 767px) {
+            top: 10px;
+
+        }
+
+        /*XS Mobile*/
+        @media (max-width: 599px) {
+            top: 45px;
+
+        }
+    }
+
+    &-title {
+        &__wrapper {
+            margin-bottom: 70px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+
+        /*Tablet*/
+        @media (max-width: 1139px) {
+            flex-wrap: wrap;
+            justify-content: space-around;
+            row-gap: 50px;
+        }
+    }
+}
+
+.chief {
+    &__descr {
+        display: flex;
+        column-gap: 24px;
+        align-items: center;
+        margin-bottom: 17px;
+    }
+
+    &__face {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    &__text {
+        color: #fff;
+        font-size: 18px;
+    }
+
+    &__occupation {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &__dishes {
+        display: flex;
+        column-gap: 30px;
+
+        /*XS Mobile*/
+        @media (max-width: 399px) {
+            column-gap: 15px;
+        }
+    }
+
+    &__dish {
+        height: 65px;
+        width: 65px;
+        object-fit: cover;
+        border-radius: 2px;
+
+        &-big {
+            width: 160px;
+
+            /*XS Mobile*/
+            @media (max-width: 399px) {
+                width: 120px;
+            }
+        }
+    }
+}
