@@ -30,7 +30,8 @@
         }
     }
 
-    &__item {
+    &__link {
+        color: #fff;
         transition: color ease-in .2s;
 
         &:hover {

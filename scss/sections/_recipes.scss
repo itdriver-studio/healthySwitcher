@@ -1,5 +1,6 @@
 .recipes {
     padding-top: 90px;
+    padding-bottom: 30px;
 
     /*Tablet*/
     @media (max-width: 1199px) {
@@ -76,11 +77,17 @@
 
     &__title {
         text-transform: uppercase;
-        margin-bottom: 65px;
+        margin-bottom: 35px;
         padding: 12px;
         background-color: rgba(0, 0, 0, 0.3);
         display: inline-block;
         border-radius: 6px;
+
+        /*XS Mobile*/
+        @media (max-width: 599px) {
+            margin-bottom: 20px;
+        }
+
     }
 
     &__date {
@@ -95,6 +102,11 @@
 
     &__author {
         margin-bottom: 60px;
+
+        /*XS Mobile*/
+        @media (max-width: 599px) {
+            margin-bottom: 20px;
+        }
     }
 
     &__status {
