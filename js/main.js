@@ -12,6 +12,11 @@ burger.addEventListener('click', () => {
 close.addEventListener('click', () => {
     menuAdaptive.classList.add('hide');
     document.body.style.overflow = 'auto';
+})
+
+menuAdaptive.addEventListener('click', () => {
+    menuAdaptive.classList.add('hide');
+    document.body.style.overflow = 'auto';
 
 })
 

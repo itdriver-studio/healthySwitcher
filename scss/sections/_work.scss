@@ -1,68 +1,76 @@
 .work {
-    padding-top: 90px;
+    padding-top: 40px;
     padding-bottom: 30px;
 
     /*Tablet*/
     @media (max-width: 1199px) {
-        padding-top: 80px;
+        padding-top: 30px;
     }
 
     /*Big Mobile*/
     @media (max-width: 899px) {
-        padding-top: 60px;
+        padding-top: 20px;
     }
 
     /*Mobile*/
     @media (max-width: 767px) {
-        padding-top: 50px;
+        padding-top: 10px;
     }
 
     /*XS Mobile*/
     @media (max-width: 599px) {
-        padding-top: 40px;
+        padding-top: 0px;
     }
 
     &-backtext {
-        top: 45px;
+        top: 65px;
 
         /*Tablet*/
         @media (max-width: 1199px) {
-            top: 45px;
             font-size: 90px;
         }
 
         /*Big Mobile*/
         @media (max-width: 899px) {
-            top: 40px;
+            top: 58px;
             font-size: 70px;
         }
 
         /*Mobile*/
         @media (max-width: 767px) {
-            top: 25px;
+            top: 50px;
         }
 
         /*XS Mobile*/
         @media (max-width: 599px) {
-            top: 25px;
             font-size: 60px;
         }
     }
 
-    &-title__wrapper {
-        margin-bottom: 90px;
+    &-title {
 
-        /*Tablet*/
-        @media (max-width: 1199px) {
-            margin-bottom: 70px;
+        &__wrapper {
+            margin-top: 68px;
+            margin-bottom: 90px;
+
+            /*Tablet*/
+            @media (max-width: 1199px) {
+                margin-bottom: 70px;
+            }
+
+            /*Big Mobile*/
+            @media (max-width: 899px) {
+                margin-top: 60px;
+                margin-bottom: 50px;
+            }
+
+            /*XS Mobile*/
+            @media (max-width: 599px) {
+                margin-top: 62px;
+
+            }
+
         }
-
-        /*Big Mobile*/
-        @media (max-width: 899px) {
-            margin-bottom: 50px;
-        }
-
-
 
     }
 

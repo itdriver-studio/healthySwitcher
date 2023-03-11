@@ -1,6 +1,6 @@
 .recipes {
     padding-top: 90px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 
     /*Tablet*/
     @media (max-width: 1199px) {
@@ -22,12 +22,42 @@
         padding-top: 40px;
     }
 
+    &-title {
+        line-height: 3;
+
+        /*XS Mobile*/
+        @media (max-width: 599px) {
+            line-height: 2;
+        }
+    }
+
     &-title__wrapper {
         margin-bottom: 60px;
     }
 
     &__backtext {
-        top: 45px;
+        top: 62px;
+
+        /*Tablet*/
+        @media (max-width: 1199px) {
+            top: 55px;
+        }
+
+        /*Big Mobile*/
+        @media (max-width: 899px) {
+            top: 33px;
+        }
+
+        /*Mobile*/
+        @media (max-width: 767px) {
+            top: 23px;
+        }
+
+        /*XS Mobile*/
+        @media (max-width: 599px) {
+            font-size: 60px;
+            top: 55px;
+        }
     }
 
     &__item {
@@ -64,8 +94,6 @@
                 display: block;
             }
         }
-
-
     }
 
     &__goto {

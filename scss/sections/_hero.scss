@@ -1,28 +1,27 @@
 .hero {
-    padding-top: 80px;
+    padding-top: 160px;
     padding-bottom: 400px;
 
     /*Tablet*/
     @media (max-width: 1199px) {
-        padding-top: 60px;
+        padding-top: 120px;
         padding-bottom: 120px;
     }
 
     /*Big Mobile*/
     @media (max-width: 899px) {
-        padding-top: 40px;
+        padding-top: 80px;
         padding-bottom: 90px;
     }
 
     /*Mobile*/
     @media (max-width: 767px) {
-        padding-top: 30px;
         padding-bottom: 70px;
     }
 
     /*XS Mobile*/
     @media (max-width: 599px) {
-        padding-top: 20px;
+        padding-top: 70px;
         padding-bottom: 40px;
     }
 

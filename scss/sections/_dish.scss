@@ -1,5 +1,5 @@
 .dishes {
-    padding-top: 90px;
+    padding-top: 70px;
 
     /*Tablet*/
     @media (max-width: 1199px) {
@@ -22,9 +22,17 @@
     }
 
     &-title {
+        line-height: 3;
+
+        /*XS Mobile*/
+        @media (max-width: 599px) {
+            line-height: 2;
+        }
+
         &__wrapper {
             position: relative;
             margin-bottom: 90px;
+            margin-top: 20px;
         }
     }
 
@@ -173,4 +181,13 @@
     text-transform: uppercase;
     font-weight: 400;
     font-size: 14px;
+}
+
+.dishes-backtext {
+    top: -27px;
+
+    /*XS Mobile*/
+    @media (max-width: 599px) {
+        top: 0px;
+    }
 }
